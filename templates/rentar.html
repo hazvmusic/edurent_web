@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block contenido %}
+<h2>Selecciona el producto de tu interés</h2>
+<div class="boton-producto">
+    <img src="{{ url_for('static', filename='images/calculadora.png') }}">
+    <p>Calculadora científica, ideal para matemáticas y física.</p>
+</div>
+<div class="boton-producto">
+    <img src="{{ url_for('static', filename='images/libro.png') }}">
+    <p>Libro de texto escolar estándar para todas las materias.</p>
+</div>
+<div class="boton-producto">
+    <img src="{{ url_for('static', filename='images/bata.png') }}">
+    <p>Bata de laboratorio para prácticas químicas y biológicas.</p>
+</div>
+{% endblock %}

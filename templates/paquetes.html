@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block contenido %}
+<h2>Selecciona un paquete</h2>
+<div class="boton-producto">
+    <img src="{{ url_for('static', filename='images/paquete_lab.png') }}">
+    <p>Paquete de laboratorio: Bata de Laboratorio, Lentes de Seguridad, Guantes y Cubrebocas.</p>
+</div>
+<div class="boton-producto">
+    <img src="{{ url_for('static', filename='images/paquete_clases.png') }}">
+    <p>Paquete para clases: Lápiz, Lapicero, Hoja de Papel, Calculadora Científica.</p>
+</div>
+{% endblock %}
